@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8295293720C955D80031201D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295293620C955D80031201D /* AppDelegate.swift */; };
+		8295293920C955D80031201D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295293820C955D80031201D /* GameViewController.swift */; };
+		8295293C20C955D80031201D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8295293A20C955D80031201D /* Main.storyboard */; };
+		8295293F20C955D80031201D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8295293D20C955D80031201D /* LaunchScreen.storyboard */; };
+		8295294420C955D80031201D /* Playground.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8295294320C955D80031201D /* Playground.app */; };
+		8295294A20C955D80031201D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8295294820C955D80031201D /* Interface.storyboard */; };
+		8295295120C955D80031201D /* Playground Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8295295020C955D80031201D /* Playground Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8295295620C955D80031201D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295295520C955D80031201D /* InterfaceController.swift */; };
+		8295295820C955D80031201D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295295720C955D80031201D /* ExtensionDelegate.swift */; };
+		8295296120C955D80031201D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295296020C955D80031201D /* AppDelegate.swift */; };
+		8295296320C955D80031201D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295296220C955D80031201D /* GameViewController.swift */; };
+		8295296620C955D80031201D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8295296420C955D80031201D /* Main.storyboard */; };
+		8295296F20C955D80031201D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295296E20C955D80031201D /* AppDelegate.swift */; };
+		8295297120C955D80031201D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295297020C955D80031201D /* GameViewController.swift */; };
+		8295297420C955D80031201D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8295297220C955D80031201D /* Main.storyboard */; };
+		8295297620C955D80031201D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8295292B20C955D30031201D /* Actions.sks */; };
+		8295297720C955D80031201D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8295292B20C955D30031201D /* Actions.sks */; };
+		8295297820C955D80031201D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8295292B20C955D30031201D /* Actions.sks */; };
+		8295297920C955D80031201D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8295292C20C955D30031201D /* GameScene.sks */; };
+		8295297A20C955D80031201D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8295292C20C955D30031201D /* GameScene.sks */; };
+		8295297B20C955D80031201D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8295292C20C955D30031201D /* GameScene.sks */; };
+		8295297C20C955D80031201D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8295292C20C955D30031201D /* GameScene.sks */; };
+		8295297D20C955D80031201D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295292D20C955D30031201D /* GameScene.swift */; };
+		8295297E20C955D80031201D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295292D20C955D30031201D /* GameScene.swift */; };
+		8295297F20C955D80031201D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295292D20C955D30031201D /* GameScene.swift */; };
+		8295298020C955D80031201D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295292D20C955D30031201D /* GameScene.swift */; };
+		8295298120C955D80031201D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8295292E20C955D80031201D /* Assets.xcassets */; };
+		8295298220C955D80031201D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8295292E20C955D80031201D /* Assets.xcassets */; };
+		8295298320C955D80031201D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8295292E20C955D80031201D /* Assets.xcassets */; };
+		8295298420C955D80031201D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8295292E20C955D80031201D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8295294520C955D80031201D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8295292620C955D30031201D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8295294220C955D80031201D;
+			remoteInfo = "Playground watchOS App";
+		};
+		8295295220C955D80031201D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8295292620C955D30031201D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8295294F20C955D80031201D;
+			remoteInfo = "Playground watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8295298A20C955D80031201D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8295295120C955D80031201D /* Playground Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8295298E20C955D80031201D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8295294420C955D80031201D /* Playground.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8295292B20C955D30031201D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		8295292C20C955D30031201D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8295292D20C955D30031201D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8295292E20C955D80031201D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8295293320C955D80031201D /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8295293620C955D80031201D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8295293820C955D80031201D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8295293B20C955D80031201D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8295293E20C955D80031201D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8295294020C955D80031201D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8295294320C955D80031201D /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8295294920C955D80031201D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8295294B20C955D80031201D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8295295020C955D80031201D /* Playground Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Playground Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8295295520C955D80031201D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8295295720C955D80031201D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8295295920C955D80031201D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8295295E20C955D80031201D /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8295296020C955D80031201D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8295296220C955D80031201D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8295296520C955D80031201D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8295296720C955D80031201D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8295296C20C955D80031201D /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8295296E20C955D80031201D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8295297020C955D80031201D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8295297320C955D80031201D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8295297520C955D80031201D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8295293020C955D80031201D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8295294D20C955D80031201D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8295295B20C955D80031201D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8295296920C955D80031201D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8295292520C955D30031201D = {
+			isa = PBXGroup;
+			children = (
+				8295292A20C955D30031201D /* Playground Shared */,
+				8295293520C955D80031201D /* Playground iOS */,
+				8295294720C955D80031201D /* Playground watchOS App */,
+				8295295420C955D80031201D /* Playground watchOS App Extension */,
+				8295295F20C955D80031201D /* Playground tvOS */,
+				8295296D20C955D80031201D /* Playground macOS */,
+				8295293420C955D80031201D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8295292A20C955D30031201D /* Playground Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8295292B20C955D30031201D /* Actions.sks */,
+				8295292C20C955D30031201D /* GameScene.sks */,
+				8295292D20C955D30031201D /* GameScene.swift */,
+				8295292E20C955D80031201D /* Assets.xcassets */,
+			);
+			path = "Playground Shared";
+			sourceTree = "<group>";
+		};
+		8295293420C955D80031201D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8295293320C955D80031201D /* Playground.app */,
+				8295294320C955D80031201D /* Playground.app */,
+				8295295020C955D80031201D /* Playground Extension.appex */,
+				8295295E20C955D80031201D /* Playground.app */,
+				8295296C20C955D80031201D /* Playground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8295293520C955D80031201D /* Playground iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8295293620C955D80031201D /* AppDelegate.swift */,
+				8295293820C955D80031201D /* GameViewController.swift */,
+				8295293A20C955D80031201D /* Main.storyboard */,
+				8295293D20C955D80031201D /* LaunchScreen.storyboard */,
+				8295294020C955D80031201D /* Info.plist */,
+			);
+			path = "Playground iOS";
+			sourceTree = "<group>";
+		};
+		8295294720C955D80031201D /* Playground watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				8295294820C955D80031201D /* Interface.storyboard */,
+				8295294B20C955D80031201D /* Info.plist */,
+			);
+			path = "Playground watchOS App";
+			sourceTree = "<group>";
+		};
+		8295295420C955D80031201D /* Playground watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8295295520C955D80031201D /* InterfaceController.swift */,
+				8295295720C955D80031201D /* ExtensionDelegate.swift */,
+				8295295920C955D80031201D /* Info.plist */,
+			);
+			path = "Playground watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		8295295F20C955D80031201D /* Playground tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				8295296020C955D80031201D /* AppDelegate.swift */,
+				8295296220C955D80031201D /* GameViewController.swift */,
+				8295296420C955D80031201D /* Main.storyboard */,
+				8295296720C955D80031201D /* Info.plist */,
+			);
+			path = "Playground tvOS";
+			sourceTree = "<group>";
+		};
+		8295296D20C955D80031201D /* Playground macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8295296E20C955D80031201D /* AppDelegate.swift */,
+				8295297020C955D80031201D /* GameViewController.swift */,
+				8295297220C955D80031201D /* Main.storyboard */,
+				8295297520C955D80031201D /* Info.plist */,
+			);
+			path = "Playground macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8295293220C955D80031201D /* Playground iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8295298F20C955D80031201D /* Build configuration list for PBXNativeTarget "Playground iOS" */;
+			buildPhases = (
+				8295292F20C955D80031201D /* Sources */,
+				8295293020C955D80031201D /* Frameworks */,
+				8295293120C955D80031201D /* Resources */,
+				8295298E20C955D80031201D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8295294620C955D80031201D /* PBXTargetDependency */,
+			);
+			name = "Playground iOS";
+			productName = "Playground iOS";
+			productReference = 8295293320C955D80031201D /* Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8295294220C955D80031201D /* Playground watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8295298B20C955D80031201D /* Build configuration list for PBXNativeTarget "Playground watchOS App" */;
+			buildPhases = (
+				8295294120C955D80031201D /* Resources */,
+				8295298A20C955D80031201D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8295295320C955D80031201D /* PBXTargetDependency */,
+			);
+			name = "Playground watchOS App";
+			productName = "Playground watchOS App";
+			productReference = 8295294320C955D80031201D /* Playground.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8295294F20C955D80031201D /* Playground watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8295298720C955D80031201D /* Build configuration list for PBXNativeTarget "Playground watchOS App Extension" */;
+			buildPhases = (
+				8295294C20C955D80031201D /* Sources */,
+				8295294D20C955D80031201D /* Frameworks */,
+				8295294E20C955D80031201D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Playground watchOS App Extension";
+			productName = "Playground watchOS App Extension";
+			productReference = 8295295020C955D80031201D /* Playground Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		8295295D20C955D80031201D /* Playground tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8295299220C955D80031201D /* Build configuration list for PBXNativeTarget "Playground tvOS" */;
+			buildPhases = (
+				8295295A20C955D80031201D /* Sources */,
+				8295295B20C955D80031201D /* Frameworks */,
+				8295295C20C955D80031201D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Playground tvOS";
+			productName = "Playground tvOS";
+			productReference = 8295295E20C955D80031201D /* Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8295296B20C955D80031201D /* Playground macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8295299520C955D80031201D /* Build configuration list for PBXNativeTarget "Playground macOS" */;
+			buildPhases = (
+				8295296820C955D80031201D /* Sources */,
+				8295296920C955D80031201D /* Frameworks */,
+				8295296A20C955D80031201D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Playground macOS";
+			productName = "Playground macOS";
+			productReference = 8295296C20C955D80031201D /* Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8295292620C955D30031201D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kirk Sumner";
+				TargetAttributes = {
+					8295293220C955D80031201D = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					8295294220C955D80031201D = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					8295294F20C955D80031201D = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					8295295D20C955D80031201D = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					8295296B20C955D80031201D = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 8295292920C955D30031201D /* Build configuration list for PBXProject "Playground" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8295292520C955D30031201D;
+			productRefGroup = 8295293420C955D80031201D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8295293220C955D80031201D /* Playground iOS */,
+				8295294220C955D80031201D /* Playground watchOS App */,
+				8295294F20C955D80031201D /* Playground watchOS App Extension */,
+				8295295D20C955D80031201D /* Playground tvOS */,
+				8295296B20C955D80031201D /* Playground macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8295293120C955D80031201D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8295297920C955D80031201D /* GameScene.sks in Resources */,
+				8295293C20C955D80031201D /* Main.storyboard in Resources */,
+				8295297620C955D80031201D /* Actions.sks in Resources */,
+				8295293F20C955D80031201D /* LaunchScreen.storyboard in Resources */,
+				8295298120C955D80031201D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8295294120C955D80031201D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8295298220C955D80031201D /* Assets.xcassets in Resources */,
+				8295294A20C955D80031201D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8295294E20C955D80031201D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8295297A20C955D80031201D /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8295295C20C955D80031201D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8295296620C955D80031201D /* Main.storyboard in Resources */,
+				8295297B20C955D80031201D /* GameScene.sks in Resources */,
+				8295298320C955D80031201D /* Assets.xcassets in Resources */,
+				8295297720C955D80031201D /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8295296A20C955D80031201D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8295297420C955D80031201D /* Main.storyboard in Resources */,
+				8295297C20C955D80031201D /* GameScene.sks in Resources */,
+				8295298420C955D80031201D /* Assets.xcassets in Resources */,
+				8295297820C955D80031201D /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8295292F20C955D80031201D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8295297D20C955D80031201D /* GameScene.swift in Sources */,
+				8295293920C955D80031201D /* GameViewController.swift in Sources */,
+				8295293720C955D80031201D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8295294C20C955D80031201D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8295297E20C955D80031201D /* GameScene.swift in Sources */,
+				8295295820C955D80031201D /* ExtensionDelegate.swift in Sources */,
+				8295295620C955D80031201D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8295295A20C955D80031201D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8295297F20C955D80031201D /* GameScene.swift in Sources */,
+				8295296320C955D80031201D /* GameViewController.swift in Sources */,
+				8295296120C955D80031201D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8295296820C955D80031201D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8295298020C955D80031201D /* GameScene.swift in Sources */,
+				8295297120C955D80031201D /* GameViewController.swift in Sources */,
+				8295296F20C955D80031201D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8295294620C955D80031201D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8295294220C955D80031201D /* Playground watchOS App */;
+			targetProxy = 8295294520C955D80031201D /* PBXContainerItemProxy */;
+		};
+		8295295320C955D80031201D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8295294F20C955D80031201D /* Playground watchOS App Extension */;
+			targetProxy = 8295295220C955D80031201D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8295293A20C955D80031201D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8295293B20C955D80031201D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8295293D20C955D80031201D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8295293E20C955D80031201D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8295294820C955D80031201D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8295294920C955D80031201D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		8295296420C955D80031201D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8295296520C955D80031201D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8295297220C955D80031201D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8295297320C955D80031201D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8295298520C955D80031201D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8295298620C955D80031201D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8295298820C955D80031201D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY7GS8S42B;
+				INFOPLIST_FILE = "Playground watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstonedigital.Playground.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "Playground Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		8295298920C955D80031201D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY7GS8S42B;
+				INFOPLIST_FILE = "Playground watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstonedigital.Playground.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "Playground Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		8295298C20C955D80031201D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY7GS8S42B;
+				IBSC_MODULE = Playground_Extension;
+				INFOPLIST_FILE = "Playground watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstonedigital.Playground.watchkitapp;
+				PRODUCT_NAME = Playground;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		8295298D20C955D80031201D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY7GS8S42B;
+				IBSC_MODULE = Playground_Extension;
+				INFOPLIST_FILE = "Playground watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstonedigital.Playground.watchkitapp;
+				PRODUCT_NAME = Playground;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		8295299020C955D80031201D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3E5JWGDKE;
+				INFOPLIST_FILE = "Playground iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstonedigital.Playground;
+				PRODUCT_NAME = Playground;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8295299120C955D80031201D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3E5JWGDKE;
+				INFOPLIST_FILE = "Playground iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstonedigital.Playground;
+				PRODUCT_NAME = Playground;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8295299320C955D80031201D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY7GS8S42B;
+				INFOPLIST_FILE = "Playground tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstonedigital.Playground;
+				PRODUCT_NAME = Playground;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		8295299420C955D80031201D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY7GS8S42B;
+				INFOPLIST_FILE = "Playground tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstonedigital.Playground;
+				PRODUCT_NAME = Playground;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8295299620C955D80031201D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BY7GS8S42B;
+				INFOPLIST_FILE = "Playground macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstonedigital.Playground;
+				PRODUCT_NAME = Playground;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		8295299720C955D80031201D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BY7GS8S42B;
+				INFOPLIST_FILE = "Playground macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstonedigital.Playground;
+				PRODUCT_NAME = Playground;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8295292920C955D30031201D /* Build configuration list for PBXProject "Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8295298520C955D80031201D /* Debug */,
+				8295298620C955D80031201D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8295298720C955D80031201D /* Build configuration list for PBXNativeTarget "Playground watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8295298820C955D80031201D /* Debug */,
+				8295298920C955D80031201D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8295298B20C955D80031201D /* Build configuration list for PBXNativeTarget "Playground watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8295298C20C955D80031201D /* Debug */,
+				8295298D20C955D80031201D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8295298F20C955D80031201D /* Build configuration list for PBXNativeTarget "Playground iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8295299020C955D80031201D /* Debug */,
+				8295299120C955D80031201D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8295299220C955D80031201D /* Build configuration list for PBXNativeTarget "Playground tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8295299320C955D80031201D /* Debug */,
+				8295299420C955D80031201D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8295299520C955D80031201D /* Build configuration list for PBXNativeTarget "Playground macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8295299620C955D80031201D /* Debug */,
+				8295299720C955D80031201D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8295292620C955D30031201D /* Project object */;
+}
