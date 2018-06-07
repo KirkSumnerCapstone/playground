@@ -3,7 +3,7 @@
 //  Playground Shared
 //
 //  Created by Kirk Sumner on 6/7/18.
-//  Copyright © 2018 Kirk Sumner. All rights reserved.
+//  Copyright © 2018 Capstone Digital. All rights reserved.
 //
 
 import SpriteKit
